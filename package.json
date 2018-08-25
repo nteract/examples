@@ -4,6 +4,7 @@
   "description": "Example Jupyter notebooks for nteract",
   "main": "index.js",
   "scripts": {
+    "prepublishOnly": "node generate-manifest.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
@@ -13,6 +14,13 @@
     "type": "git",
     "url": "git+https://github.com/nteract/examples.git"
   },
+  "files": [
+    "manifest.json",
+    "python",
+    "node.js",
+    "r",
+    "index.js"
+  ],
   "keywords": [
     "example",
     "notebooks"

@@ -1,3 +1,10 @@
+vega_datasets
+matplotlib
+requests
+seaborn
 pandas
+plotly
+altair
+numpy
 vdom
 dx

@@ -1,0 +1,23 @@
+{
+  "name": "@nteract/examples",
+  "version": "1.0.0",
+  "description": "Example Jupyter notebooks for nteract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nteract/examples.git"
+  },
+  "keywords": [
+    "example",
+    "notebooks"
+  ],
+  "author": "nteract",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nteract/examples/issues"
+  },
+  "homepage": "https://github.com/nteract/examples#readme"
+}

@@ -22,17 +22,24 @@ async function getExamples() {
             // Pass back all the files
             resolve({
               language: language,
-              files: files.map(filename =>
-                path.join(__dirname, language, filename)
-              )
+              files: files.map(filename => path.join(language, filename))
             });
           });
         })
     )
   );
-  return manifest;
+
+  return new Promise((resolve, reject) => {
+    fs.writeFile("manifest.json", JSON.stringify(manifest, null, 2), err => {
+      if (err) {
+        reject(err);
+        return;
+      }
+      resolve();
+    });
+  });
 }
 
-module.exports = {
-  getExamples
-};
+getExamples()
+  .then(x => console.log("success"))
+  .catch(err => process.exit(1));

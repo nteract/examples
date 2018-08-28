@@ -4,8 +4,9 @@
   "description": "Example Jupyter notebooks for nteract",
   "main": "index.js",
   "scripts": {
-    "prepublishOnly": "node generate-manifest.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node generate-manifest.js",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build"
   },
   "publishConfig": {
     "access": "public"

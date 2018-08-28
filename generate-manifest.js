@@ -22,7 +22,18 @@ async function getExamples() {
             // Pass back all the files
             resolve({
               language: language,
-              files: files.map(filename => path.join(language, filename))
+              // For each notebook, read it into memory
+
+              files: files.map(filename => {
+                const notebookPath = path.join(language, filename);
+
+                const content = JSON.parse(fs.readFileSync(notebookPath));
+
+                return {
+                  path: notebookPath,
+                  metadata: content.metadata
+                };
+              })
             });
           });
         })
@@ -41,5 +52,5 @@ async function getExamples() {
 }
 
 getExamples()
-  .then(x => console.log("success"))
+  .then(x => console.log("example notebooks manifest written"))
   .catch(err => process.exit(1));

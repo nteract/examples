@@ -1,6 +1,6 @@
 {
   "name": "@nteract/examples",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Example Jupyter notebooks for nteract",
   "main": "index.js",
   "scripts": {

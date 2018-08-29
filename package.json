@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node generate-manifest.js",
     "prepublishOnly": "npm run build",
-    "test": "npm run test:conformance",
+    "test": "npm run test:conformance && npm run build",
     "test:conformance": "node scripts/conformance.js"
   },
   "publishConfig": {

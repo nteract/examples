@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node generate-manifest.js",
     "prepublishOnly": "npm run build",
-    "test": "npm run build"
+    "test": "npm run test:conformance",
+    "test:conformance": "node scripts/conformance.js"
   },
   "publishConfig": {
     "access": "public"
@@ -31,5 +32,10 @@
   "bugs": {
     "url": "https://github.com/nteract/examples/issues"
   },
-  "homepage": "https://github.com/nteract/examples#readme"
+  "homepage": "https://github.com/nteract/examples#readme",
+  "devDependencies": {
+    "glob": "^7.1.3",
+    "jsonschema": "^1.2.4",
+    "nbschema": "^0.1.0"
+  }
 }

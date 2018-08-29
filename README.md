@@ -30,6 +30,6 @@ This repository has collections of **nteract** notebooks to try out on Binder. C
 
 ## Use your nteract notebooks on Binder
 
-* Head over to mybinder.org.
+* Head over to [mybinder.org](https://mybinder.org).
 * Enter the URL of the repo containing your nteract notebooks.
 * Press *Launch*.

@@ -36,6 +36,8 @@ This repository has collections of **nteract** notebooks to try out on Binder. C
 
 ## Contribute your notebooks!
 
+Have you created an nteract notebook that you would like to share with others? We welcome pull requests from the community!
+
 ```
 git clone https://github.com/nteract/examples
 cd examples

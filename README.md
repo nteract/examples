@@ -33,3 +33,15 @@ This repository has collections of **nteract** notebooks to try out on Binder. C
 * Head over to [mybinder.org](https://mybinder.org).
 * Enter the URL of the repo containing your nteract notebooks.
 * Press *Launch*.
+
+## Contribute your notebooks!
+
+Have you created an nteract notebook that you would like to share with others? We welcome pull requests from the community!
+
+```
+git clone https://github.com/nteract/examples
+cd examples
+# Add your notebooks to one of the existing directories or create new ones
+# Make a pull request
+```
+

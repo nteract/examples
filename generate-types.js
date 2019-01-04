@@ -8,17 +8,18 @@ const { format } = require("prettier");
 async function main() {
   const manifestRaw = await readFile("manifest.json");
 
-  const manifestNamespace = json2ts(manifestRaw, {
-    rootName: "Manifest",
+  const rootName = "Manifest";
+  const manifestTypes = json2ts(manifestRaw, {
+    rootName,
     prefix: ""
   });
 
   const typeScriptDefinition = format(
     `
-  ${manifestNamespace}
-
   declare module '@nteract/examples' {
-    const manifest: Manifest;
+    ${manifestTypes}
+
+    const manifest: ${rootName};
     export = manifest;
   }
   `,

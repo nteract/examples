@@ -19,8 +19,7 @@ async function main() {
   declare module '@nteract/examples' {
     ${manifestTypes}
 
-    const manifest: ${rootName};
-    export = manifest;
+    export const manifest: ${rootName};
   }
   `,
     { parser: "typescript" }

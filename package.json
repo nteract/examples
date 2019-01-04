@@ -4,7 +4,9 @@
   "description": "Example Jupyter notebooks for nteract",
   "main": "index.js",
   "scripts": {
-    "build": "node generate-manifest.js",
+    "build": "npm run generate:manifest && npm run generate:types",
+    "generate:manifest": "node generate-manifest.js",
+    "generate:types": "node generate-types.js",
     "prepublishOnly": "npm run build",
     "test": "npm run test:conformance && npm run build && npm run test:unit",
     "test:conformance": "node scripts/conformance.js",
@@ -18,6 +20,7 @@
     "url": "git+https://github.com/nteract/examples.git"
   },
   "files": [
+    "index.d.ts",
     "manifest.json",
     "python",
     "node.js",
@@ -37,7 +40,9 @@
   "devDependencies": {
     "glob": "^7.1.3",
     "jest": "^23.5.0",
+    "json-ts": "^1.6.4",
     "jsonschema": "^1.2.4",
-    "nbschema": "^0.1.0"
+    "nbschema": "^0.1.0",
+    "prettier": "^1.15.3"
   }
 }

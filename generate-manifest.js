@@ -1,5 +1,4 @@
 const fs = require("fs");
-// console.log(__dirname)
 const path = require("path");
 
 const languages = ["r", "python", "node.js"];

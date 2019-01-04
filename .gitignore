@@ -106,3 +106,5 @@ ENV/
 node_modules
 
 manifest.json
+
+index.d.ts

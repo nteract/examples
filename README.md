@@ -1,6 +1,6 @@
 # nteract example notebooks
 
-**Go ahead and give these notebooks a try.**
+**Go ahead and give these notebooks a try!**
 
 This repository has collections of **nteract** notebooks to try out on Binder. Click the link of an individual example or the language heading for a bundle of notebooks.
 

@@ -44,4 +44,3 @@ cd examples
 # Add your notebooks to one of the existing directories or create new ones
 # Make a pull request
 ```
-

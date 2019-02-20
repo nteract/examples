@@ -1,8 +1,8 @@
-name: exciting
+name: nteractive
 channels:
+  - defaults
   - conda-forge
 dependencies:
-  - python
   - altair
   - matplotlib
   - numpy
@@ -10,10 +10,8 @@ dependencies:
   - plotly
   - requests
   - seaborn
+  - traitlets
   - vega_datasets
   - pip:
     - dx
-    - ipython
-    - pandas
-    - traitlets>=4.3.1
     - vdom

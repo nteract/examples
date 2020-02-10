@@ -34,7 +34,7 @@ This repository has collections of **nteract** notebooks to try out on Binder. C
 * [Housing ML (C#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Fcsharp%2Fhousing-ml.ipynb)
 * [Repo statistics (F#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Ffsharp%2Frepo-statistics.ipynb)
 * [Housing ML (F#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Ffsharp%2Fhousing-ml.ipynb)
-* [PowerShell](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Fpowershell%2Frepo-statistics.ipynb)
+* [Managing Azure (PowerShell)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Fpowershell%2Fmanaging-azure.ipynb)
 
 ## Use your nteract notebooks on Binder
 

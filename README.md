@@ -28,6 +28,14 @@ This repository has collections of **nteract** notebooks to try out on Binder. C
 
 * [Exploring Custom Revival with JSON.parse - Immutable Revival](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fnode.js%2Fimmutable-revival.ipynb)
 
+## [dotnet](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet)
+
+* [Repo statistics (C#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Fcsharp%2Frepo-statistics.ipynb)
+* [Housing ML (C#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Fcsharp%2Fhousing-ml.ipynb)
+* [Repo statistics (F#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Ffsharp%2Frepo-statistics.ipynb)
+* [Housing ML (F#)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Ffsharp%2Fhousing-ml.ipynb)
+* [Managing Azure (PowerShell)](https://mybinder.org/v2/gh/nteract/examples/master?urlpath=%2Fnteract%2Fedit%2Fdotnet%2Fpowershell%2Fmanaging-azure.ipynb)
+
 ## Use your nteract notebooks on Binder
 
 * Head over to [mybinder.org](https://mybinder.org).

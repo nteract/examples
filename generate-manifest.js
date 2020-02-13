@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const languages = ["r", "python", "node.js"];
+const languages = ["r", "python", "node.js", "dotnet", "julia"];
 
 async function getExamples() {
   // Look within each directory our manifest needs

@@ -1,4 +1,4 @@
-# nteract example notebooks Test
+# nteract example notebooks
 
 **Go ahead and give these notebooks a try!**
 

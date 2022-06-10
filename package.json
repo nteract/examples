@@ -46,7 +46,7 @@
     "jsonschema": "^1.2.4",
     "nbschema": "^0.1.0",
     "prettier": "^1.15.3",
-    "semantic-release": "^17.4.4"
+    "semantic-release": "^19.0.3"
   },
   "release": {
     "plugins": [
